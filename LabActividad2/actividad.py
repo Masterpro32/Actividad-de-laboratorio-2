@@ -25,3 +25,15 @@ def menu():
         print("Opción inválida")
       
 menu()
+
+#par(Neda Victoria Merino)
+def esPar(num):
+    if num % 2 == 0:
+        return "Verdadero(Es par)"
+    else:
+        return "Falso(Es impar)"
+
+numero = int(input("Introduce un número: "))
+print(esPar(numero))
+
+
