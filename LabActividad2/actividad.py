@@ -14,6 +14,17 @@ def menu():
 
     elif opcion == "2":
         sumar()
+        def sumar(a, b):
+    return a + b
+
+num1 = int(input("Ingresa el primer número: "))
+num2 = int(input("Ingresa el segundo número: "))
+
+# llamar a la función
+resultado = sumar(num1, num2)
+
+# mostrar resultado
+print("La suma es:", resultado)
 
     elif opcion == "3":
 #par(Neda Victoria Merino)
