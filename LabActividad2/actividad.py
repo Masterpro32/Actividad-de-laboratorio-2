@@ -8,7 +8,7 @@ def menu():
 
     if opcion == "1":
         def saludar(nombre):
-        print("Hola,", nombre)
+            print("Hola,", nombre)
         nombre = input("Escribe tu nombre: ")
         saludar(nombre)
 
