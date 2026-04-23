@@ -1,3 +1,5 @@
+def sumar(a, b):
+    return a + b
 def menu():
     print("1. Saludar")
     print("2. Sumar")
@@ -14,9 +16,6 @@ def menu():
 
     elif opcion == "2":
         sumar()
-        def sumar(a, b):
-    return a + b
-
 num1 = int(input("Ingresa el primer número: "))
 num2 = int(input("Ingresa el segundo número: "))
 
