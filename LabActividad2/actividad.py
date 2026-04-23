@@ -28,7 +28,7 @@ print("La suma es:", resultado)
 
     elif opcion == "3":
 #par(Neda Victoria Merino)
-def esPar(num):
+        def esPar(num):
     if num % 2 == 0:
         return "Verdadero(Es par)"
     else:
