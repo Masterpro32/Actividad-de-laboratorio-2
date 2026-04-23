@@ -2,6 +2,7 @@ def sumar(a, b):
     return a + b
 
 def menu():
+    #Menú por Diego
     print("1. Saludar")
     print("2. Sumar")
     print("3. Es par")
@@ -10,12 +11,14 @@ def menu():
     opcion = input("Elige: ")
 
     if opcion == "1":
+        #Saludar por Jeanpier
         def saludar(nombre):
             print("Hola,", nombre)
         nombre = input("Escribe tu nombre: ")
         saludar(nombre)
 
     elif opcion == "2":
+        #Suma por Haziel
         num1 = int(input("Ingresa el primer número: "))
         num2 = int(input("Ingresa el segundo número: "))
 
@@ -23,7 +26,7 @@ def menu():
         print("La suma es:", resultado)
 
     elif opcion == "3":
-        # par(Neda Victoria Merino)
+        #Par por Neda Victoria
         def esPar(num):
             if num % 2 == 0:
                 return "Verdadero(Es par)"
@@ -34,6 +37,7 @@ def menu():
         print(esPar(numero))
 
     elif opcion == "4":
+        #Mayor por Harol
         def esMayor(edad):
             if edad >= 18:
                 return "Verdadero(Es mayor de edad)"
