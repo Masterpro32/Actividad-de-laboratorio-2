@@ -7,7 +7,10 @@ def menu():
     opcion = input("Elige: ")
 
     if opcion == "1":
-        saludar()
+        def saludar(nombre):
+        print("Hola,", nombre)
+        nombre = input("Escribe tu nombre: ")
+        saludar(nombre)
 
     elif opcion == "2":
         sumar()
