@@ -22,3 +22,12 @@ def menu():
         print("Opción inválida")
       
 menu()
+#par(Neda Merino Zegarra)
+def esPar(num):
+    if num % 2 == 0:
+        return "Verdadero(Es par)"
+    else:
+        return "Falso(Es impar)"
+
+numero = int(input("Introduce un número: "))
+print(esPar(numero))
