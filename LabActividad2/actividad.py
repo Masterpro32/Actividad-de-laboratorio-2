@@ -16,16 +16,6 @@ def menu():
         sumar()
 
     elif opcion == "3":
-        esPar()
-
-    elif opcion == "4":
-        esMayor()
-
-    else:
-        print("Opción inválida")
-      
-menu()
-
 #par(Neda Victoria Merino)
 def esPar(num):
     if num % 2 == 0:
@@ -35,5 +25,15 @@ def esPar(num):
 
 numero = int(input("Introduce un número: "))
 print(esPar(numero))
+
+    elif opcion == "4":
+        esMayor()
+
+    else:
+        print("Opción inválida")
+      
+menu()
+
+
 
 
