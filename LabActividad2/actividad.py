@@ -1,7 +1,7 @@
 def sumar(a, b):
     return a + b
+
 def menu():
-    #Menú por Diego
     print("1. Saludar")
     print("2. Sumar")
     print("3. Es par")
@@ -10,44 +10,42 @@ def menu():
     opcion = input("Elige: ")
 
     if opcion == "1":
-        #Saludo por Jeanpier
         def saludar(nombre):
             print("Hola,", nombre)
         nombre = input("Escribe tu nombre: ")
         saludar(nombre)
 
     elif opcion == "2":
-        #Suma por Haziel
-        sumar()
-num1 = int(input("Ingresa el primer número: "))
-num2 = int(input("Ingresa el segundo número: "))
+        num1 = int(input("Ingresa el primer número: "))
+        num2 = int(input("Ingresa el segundo número: "))
 
-# llamar a la función
-resultado = sumar(num1, num2)
-
-# mostrar resultado
-print("La suma es:", resultado)
+        resultado = sumar(num1, num2)
+        print("La suma es:", resultado)
 
     elif opcion == "3":
-    #esPar por Neda Victoria 
+        # par(Neda Victoria Merino)
         def esPar(num):
-    if num % 2 == 0:
-        return "Verdadero(Es par)"
-    else:
-        return "Falso(Es impar)"
+            if num % 2 == 0:
+                return "Verdadero(Es par)"
+            else:
+                return "Falso(Es impar)"
 
-numero = int(input("Introduce un número: "))
-print(esPar(numero))
+        numero = int(input("Introduce un número: "))
+        print(esPar(numero))
 
     elif opcion == "4":
-        #esMayor por Harol
-        esMayor()
+        def esMayor(edad):
+            if edad >= 18:
+                return "Verdadero(Es mayor de edad)"
+            else:
+                return "Falso(Es menor de edad)"
+
+        edad = int(input("Introduce tu edad: "))
+        print(esMayor(edad))
 
     else:
         print("Opción inválida")
       
 menu()
-
-
 
 
